@@ -311,7 +311,7 @@ class Runner(object):
     def evaluates(
             self,
             *experiment_paths: str,
-            outputfile: str = 'scores.csv',
+            outputfile: str = 'scores.csv'
     ):
         result_dfs = []
         for exp_path in experiment_paths:
